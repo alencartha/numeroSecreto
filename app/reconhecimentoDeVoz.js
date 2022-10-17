@@ -21,9 +21,7 @@ function exibeChuteNaTela(chute){
     elChute.innerHTML = 
     `
     <div>Você disse:</div>
-        <span class="box">${chute}</span>
-    <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div>
-    
+    <span class="box">${chute}</span> 
     `
 }
 
