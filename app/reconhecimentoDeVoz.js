@@ -14,6 +14,7 @@ recognition.addEventListener('result',(event)=>{
 function onSpeak(valor){
     let chute = valor.results[0][0].transcript
     exibeChuteNaTela(chute)
+    verificarSeOChutePossuiValorValido(chute)
 }
 
 function exibeChuteNaTela(chute){
@@ -25,3 +26,4 @@ function exibeChuteNaTela(chute){
     
     `
 }
+
