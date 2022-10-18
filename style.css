@@ -58,3 +58,9 @@ h3 {
 .btn-jogar:hover{
     transform: scale(.95);
 }
+
+footer{
+    padding: 2rem;
+    position: absolute;
+    top:35rem
+}
